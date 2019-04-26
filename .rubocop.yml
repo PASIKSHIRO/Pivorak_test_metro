@@ -1,0 +1,52 @@
+AllCops:
+  TargetRubyVersion: 2.5
+  Exclude:
+    - 'metro_infopoint_spec.rb'
+
+Metrics/LineLength:
+  Max: 100
+
+Metrics/MethodLength:
+  Max: 10
+
+Metrics/ClassLength:
+  Max: 100
+
+Metrics/BlockNesting:
+  Max: 3
+
+Metrics/BlockLength:
+  Max: 3
+
+Metrics/ParameterLists:
+  Max: 4
+
+Layout/AlignHash:
+  EnforcedHashRocketStyle: table
+  EnforcedColonStyle:      table
+
+Layout/SpaceAroundOperators:
+  Enabled: true
+
+Layout/ExtraSpacing:
+  ForceEqualSignAlignment: true
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle:    indented
+  IndentationWidth: 2
+
+Layout/MultilineOperationIndentation:
+  EnforcedStyle:    indented
+  IndentationWidth: 2
+
+Layout/Tab:
+  IndentationWidth: 2
+
+Lint/AssignmentInCondition:
+  AllowSafeAssignment: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: always
